@@ -1,4 +1,4 @@
-# wallpapers
+# Wallpapers
 A personal collection of minimalist wallpapers.
 
 ## Thanks you
