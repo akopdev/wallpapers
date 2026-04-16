@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-# set a random desktop wallpaper for i3wm
-feh --bg-fill "$(find ./wallpapers/*.{png,jpg} | shuf -n 1)"
+# set a random background wallpaper for i3wm
+SCRIPT_DIR=$(dirname "$(realpath "$0")")
+feh --randomize --bg-fill "${SCRIPT_DIR}"/wallpapers/*.{jpg,jpeg,png}
